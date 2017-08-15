@@ -37,7 +37,7 @@ namespace BMI_Calculator
         /// <param name="e"></param>
         private void SplashformTimer_Tick(object sender, EventArgs e)
         {
-            
+            Calculator calculator = new Calculator();
             Program.calculator.Show();
             this.Hide();
             SplashformTimer.Enabled = false;

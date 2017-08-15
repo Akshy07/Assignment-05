@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.Imperial = new System.Windows.Forms.RadioButton();
+            this.Metric = new System.Windows.Forms.RadioButton();
             this.ResultBox = new System.Windows.Forms.TextBox();
             this.ResultButton = new System.Windows.Forms.Button();
             this.Height = new System.Windows.Forms.Label();
@@ -40,33 +40,33 @@
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // radioButton1
+            // Imperial
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.BackColor = System.Drawing.Color.Teal;
-            this.radioButton1.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.ForeColor = System.Drawing.Color.Navy;
-            this.radioButton1.Location = new System.Drawing.Point(12, 35);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(142, 34);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Imperial";
-            this.radioButton1.UseVisualStyleBackColor = false;
+            this.Imperial.AutoSize = true;
+            this.Imperial.BackColor = System.Drawing.Color.Teal;
+            this.Imperial.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Imperial.ForeColor = System.Drawing.Color.Navy;
+            this.Imperial.Location = new System.Drawing.Point(12, 35);
+            this.Imperial.Name = "Imperial";
+            this.Imperial.Size = new System.Drawing.Size(142, 34);
+            this.Imperial.TabIndex = 0;
+            this.Imperial.TabStop = true;
+            this.Imperial.Text = "Imperial";
+            this.Imperial.UseVisualStyleBackColor = false;
             // 
-            // radioButton2
+            // Metric
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.BackColor = System.Drawing.Color.Teal;
-            this.radioButton2.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.ForeColor = System.Drawing.Color.Navy;
-            this.radioButton2.Location = new System.Drawing.Point(175, 35);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(115, 34);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Metric";
-            this.radioButton2.UseVisualStyleBackColor = false;
+            this.Metric.AutoSize = true;
+            this.Metric.BackColor = System.Drawing.Color.Teal;
+            this.Metric.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Metric.ForeColor = System.Drawing.Color.Navy;
+            this.Metric.Location = new System.Drawing.Point(175, 35);
+            this.Metric.Name = "Metric";
+            this.Metric.Size = new System.Drawing.Size(115, 34);
+            this.Metric.TabIndex = 1;
+            this.Metric.TabStop = true;
+            this.Metric.Text = "Metric";
+            this.Metric.UseVisualStyleBackColor = false;
             // 
             // ResultBox
             // 
@@ -161,8 +161,8 @@
             this.Controls.Add(this.Height);
             this.Controls.Add(this.ResultButton);
             this.Controls.Add(this.ResultBox);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.Metric);
+            this.Controls.Add(this.Imperial);
             this.Enabled = false;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(7);
@@ -180,8 +180,8 @@
 
         #endregion
 
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton Imperial;
+        private System.Windows.Forms.RadioButton Metric;
         private System.Windows.Forms.TextBox ResultBox;
         private System.Windows.Forms.Button ResultButton;
         private System.Windows.Forms.Label Height;

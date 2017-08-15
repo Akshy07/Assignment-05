@@ -23,9 +23,11 @@ namespace BMI_Calculator
         [STAThread]
         public static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new SplashForm());
+            Application.Run(new Calculator());
         }
     }
 }
