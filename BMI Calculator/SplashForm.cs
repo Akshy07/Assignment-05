@@ -12,7 +12,7 @@ using System.Windows.Forms;
  * 300918514
  * Date: 14th August, 2017
  * Description: This is a splash form.
- * version 0.2 - Created Splashform timer.
+ * version 0.3 - refactored the Splashform timer control.
  */
 
 namespace BMI_Calculator
@@ -37,8 +37,8 @@ namespace BMI_Calculator
         /// <param name="e"></param>
         private void SplashformTimer_Tick(object sender, EventArgs e)
         {
-            Calculator calculator = new Calculator();
-            calculator.Show();
+            
+            Program.calculator.Show();
             this.Hide();
             SplashformTimer.Enabled = false;
         }

@@ -8,18 +8,20 @@ using System.Windows.Forms;
  * 300918514
  * Date: 14th August, 2017
  * Description: Created a calculator.
- * version 0.1 - Created BMI calculator.
+ * version 0.3 - Created an instance of calculator object.
  */
 
 namespace BMI_Calculator
 {
-    static class Program
+    public static class Program
     {
+        // Created form object
+        public static Calculator calculator = new Calculator();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void Main()
+        public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
