@@ -165,12 +165,13 @@
             this.Controls.Add(this.radioButton1);
             this.Enabled = false;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.Margin = new System.Windows.Forms.Padding(7);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Calculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMI Calculator";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Calculator_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
